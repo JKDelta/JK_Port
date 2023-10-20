@@ -1,0 +1,980 @@
+	<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+       
+
+        .university-toggle {
+		margin: 0 auto;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(73, 81, 86, 0.6);
+            color: white;
+            font-family: Calibri, sans-serif;
+            font-size: 40px;
+            height: 15vh; /* Adjust the height as needed */
+			border:
+        }
+
+        .university-info {
+            display: none;
+			align-items: center;
+            justify-content: center;
+            background-color: rgba(113, 121, 126, 0.7); /* Color with opacity */
+            border: 1% solid #ccc;
+            padding: 1%;
+            width: 98%;
+            max-width: 98%; /* Adjust the max width as needed */
+            margin-top: 0px; /* Add margin to create space */
+            text-align: center; /* Center the text horizontally */
+        }
+
+        .university-info.active {
+            display: block;
+        }
+
+        .university-info h2 {
+            margin-top: 0;
+        }
+
+        .project-button {
+            display: block;
+            margin-top: 10px;
+            background-color: rgba(73, 81, 86, 1);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%; /* Width set to 100% */
+        }
+
+        .project-button:hover {
+            background-color: rgba(53, 61, 66, 1);
+        }
+		 .content {
+          text-align: center;
+          padding: 20px;
+		  font-size: 30px;
+         }
+		  iframe {
+            width: 75%;
+            height: 45vh;
+			margin: 0 auto;
+            
+        }
+		.table-container{
+		padding-top: 15%;
+		
+		
+		}
+		
+		
+    </style>
+    <title>JK_design</title>
+  
+          <script src="myscripts.js"></script>
+		  <link rel="stylesheet" type="text/css" href="index.css">
+		    <title>JK_design</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+			 <link rel="icon" href="Logo.png" type="image/gif" sizes="16x16">
+			 
+	
+	
+  </head>
+  
+   <body>
+<div>
+ <nav class="fixed-nav-bar">
+    <a href="index.html">Home</a>
+        <a href="index.html#Projects anchor">My Projects</a>
+    <a href="gallery.html">Gallery</a>
+   <div class="sction-1">
+   <div class="image-container">
+  <a href="mailto:your.email@gmail.com">
+  <img src="gmail.png" alt="Gmail" sizes="16x16">
+</a>
+</div>
+</div>
+<div class="sction-2">
+<div class="image-container">
+ <a href="https://www.linkedin.com/in/jordan-kalanovski-45bb0a219/">
+  <img src="linkedin.png" alt="Linkedin" sizes="16x16">
+</a>
+</div>
+</div>
+
+<a>+44 7704438653</a>
+
+</nav>
+   </div> 
+
+   
+    <div class="section-6 box">
+<div class="table-container">
+ 
+  <!-- First Meta University Dropdown -->
+  <div class="university-toggle" id="meta-university-toggle">
+    Currently working on
+  </div>
+  <div class="university-info" id="meta-university-info">
+    <!-- University 1 -->
+    <div class="university-toggle" id="university-toggle1">
+      370z
+    </div>
+    <div class="university-info" id="university-info1">
+     <h3>Sparkled by its predecessors iconic appearance in 'Fast and Furious: Tokyo Drift,' I developed a strong passion for the Z-series cars. This fueled my decision to undertake a more demanding 3D modeling project, one that prominently featured the Nissan 370Z. Using a 2012 Rocket Bunny sketch as my blueprint.</h3>
+    
+	<center>
+  <table>
+    <tbody>
+      <td>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideshow9">
+
+          <!-- Full-width images with caption text -->
+          <div class="mySlides9 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="370_0.jpg" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides9 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="car_350_1.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides9 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="car_350_2.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides9(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides9(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide9(1)"></span>
+          <span class="dot" onclick="currentSlide9(2)"></span>
+          <span class="dot" onclick="currentSlide9(3)"></span>
+        </div>
+      </td>
+    </tbody>
+  </table>
+
+  <script>
+    var slideIndex9 = 1;
+
+    showSlides9(slideIndex9);
+
+    function plusSlides9(n) {
+      showSlides9(slideIndex9 += n);
+    }
+
+    function currentSlide9(n) {
+      showSlides2(slideIndex9 = n);
+    }
+
+    function showSlides9(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides9");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex9 = 1 }
+      if (n < 1) { slideIndex9 = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex9 - 1].style.display = "block";
+      dots[slideIndex9s - 1].className += " active";
+    }
+  </script>
+</center>
+	
+	</div>
+    <!-- University 2 -->
+    <div class="university-toggle" id="university-toggle2">
+      Tentacle monster
+    </div>
+	<div class="university-info" id="university-info2">
+     <h3>
+Recently, I realized that I lacked knowledge in 2D animation, a skill that I believe has its importance, even at a rudimentary level. Recognizing its potential value in future career opportunities, I embarked on a journey to explore my options. After conducting some research, I made the decision to delve into bone animation, and I selected DragonBones as my software of choice.
+
+To kickstart this learning process, I created a pixel art monster and animated it with three straightforward animations. This hands-on approach allowed me to gain practical experience with the fundamentals of animation and the software tools involved.</h3>
+    <h3>Initially, I created a movement animation to depict how the character responds when given a movement command.</h3>
+	
+	<h3>I then developed a transitional state to seamlessly switch between animation 1 and animation 3.</h3>
+	
+	<h3>Lastly, I crafted a third animation to represent the character's idle state.</h3>
+	
+	</div>
+    
+  </div>
+
+  <!-- Second Meta University Dropdown -->
+  <div class="university-toggle" id="button2">
+    Recent Projects
+  </div>
+  <div class="university-info" id="button2-info">
+    <!-- University 1 -->
+    <div class="university-toggle" id="button2_1">
+       In-Engine Creation
+    </div>
+    <div class="university-info" id="button2-info1">
+      <div class="university-toggle" id="salt">
+
+      Assault city
+    </div>
+    <div class="university-info" id="In-Engine_1">
+
+       <iframe src="https://www.youtube.com/embed/TMkyl_zuBdY" frameborder="0" ></iframe>
+      <h3>This project represents my work within Unreal Engine 4, where I delved into the realm of first-person shooter (FPS) game development. The focal point of this endeavor is the meticulously designed map, which has been strategically crafted to provide an initial advantage to the police team by letting them take control of the sites. This advantage plays a pivotal role in balancing the odds against the terrorists, who often push together.
+
+The map offers players a diverse range of choke points, facilitating tactical rotations and creating a dynamic battlefield. With an abundance of angles strategically placed throughout, players must exercise caution and precision to outsmart their opponents. For a more in-depth look at the design choices, please watch the accompanying video above.</h3>
+      
+    </div>
+    </div>
+    <!-- University 2 -->
+    <div class="university-toggle" id="button2_2">
+      Modelin and Texturing
+    </div>
+    <div class="university-info" id="button2-info2">
+      <div class="university-toggle" id="Martin" >
+      Aston Martin db5
+    </div>
+    <div class="university-info" id="Modelin_and_Texturing_1">
+     
+<center>
+  <table>
+    <tbody>
+      <td>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideshow2">
+
+          <!-- Full-width images with caption text -->
+          <div class="mySlides2 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="car_inside_0.jpg" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides2 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="carfront_1.jpg" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides2 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="car_baack_2.jpg" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide2(1)"></span>
+          <span class="dot" onclick="currentSlide2(2)"></span>
+          <span class="dot" onclick="currentSlide2(3)"></span>
+        </div>
+      </td>
+    </tbody>
+  </table>
+
+  <script>
+    var slideIndex2 = 1;
+
+    showSlides2(slideIndex2);
+
+    function plusSlides2(n) {
+      showSlides2(slideIndex2 += n);
+    }
+
+    function currentSlide2(n) {
+      showSlides2(slideIndex2 = n);
+    }
+
+    function showSlides2(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides2");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex2 = 1 }
+      if (n < 1) { slideIndex2 = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex2 - 1].style.display = "block";
+      dots[slideIndex2 - 1].className += " active";
+    }
+  </script>
+</center>
+
+
+
+
+  
+ 
+	 <h3>This project is the outcome of my university coursework for lighting and texturing, involving the correction of topology errors, the creation of both low and high-poly versions of a model, as well as the development of three distinct materials using Substance Designer. Furthermore, I handled the texturing and UV wrapping processes for the DB5 model, with attention to detail.</h3>
+   
+    
+    </div>
+	  <div class="university-toggle" id="Gas">
+      Gas Station
+    </div>
+    <div class="university-info" id="Modelin_and_Texturing_2">
+	
+	 <iframe src="https://www.youtube.com/embed/vG1mJ8zBonM" frameborder="0" allowfullscreen></iframe>
+	 
+	 <h2><Center>References</Center></h2>
+     
+<center>
+  <table>
+    <tbody>
+      <td>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideshow3">
+
+          <!-- Full-width images with caption text -->
+          <div class="mySlides3 fade">
+            <img src="gas_pumps.png" style="width:100%">
+            <div class="text">pump conversion</div>
+          </div>
+
+          <div class="mySlides3 fade">
+            <img src="BP.png" style="width:100%">
+            <div class="text">Mesurments schematics</div>
+          </div>
+
+          <div class="mySlides3 fade">
+            <img src="gas_front.png" style="width:100%">
+            <div class="text">Reference</div>
+          </div>
+		  
+		  <div class="mySlides3 fade">
+            <img src="Rep_Front.png" style="width:100%">
+            <div class="text">Re-creation</div>
+          </div>
+		  
+		 
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide3(1)"></span>
+          <span class="dot" onclick="currentSlide3(2)"></span>
+          <span class="dot" onclick="currentSlide3(3)"></span>
+		  <span class="dot" onclick="currentSlide3(4)"></span>
+        </div>
+      </td>
+    </tbody>
+  </table>
+  
+
+  <script>
+    var slideIndex3 = 1;
+
+    showSlides3(slideIndex3);
+
+    function plusSlides3(n) {
+      showSlides3(slideIndex3 += n);
+    }
+
+    function currentSlide3(n) {
+      showSlides3(slideIndex3 = n);
+    }
+
+    function showSlides3(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides3");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex3 = 1 }
+      if (n < 1) { slideIndex3 = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex3 - 1].style.display = "block";
+      dots[slideIndex3 - 1].className += " active";
+    }
+  </script>
+</center>
+
+
+
+
+  
+ 
+	 <h3>This represents one of my initial modeling assignments, wherein I recreated a gas station from the popular game GTA V using Maya. I employed polygonal modeling and NURBS techniques to capture the distinctive appearance of the gas station.</h3>
+   
+    
+    </div>
+	 <div class="university-toggle" id="Human">
+      Cartoon Human
+    </div>
+    <div class="university-info" id="Modelin_and_Texturing_3">
+	
+	 <iframe src="https://www.youtube.com/embed/0xXme2bbxT0" frameborder="0" allowfullscreen ></iframe>
+	 
+	 <h3>This represents one of my initial modeling assignments, wherein I recreated a gas station from the popular game GTA V using Maya. I employed polygonal modeling and NURBS techniques to capture the distinctive appearance of the gas station.</h3>
+   
+    
+    </div>
+	</div>
+	<!-- University 2 -->
+    <div class="university-toggle" id="2button2_2">
+      Statistical Analyis
+    </div>
+    <div class="university-info" id="2button2-info2">
+      <div class="university-toggle" id="Disertation" >
+      The effect of sound on enjoyment and preception of varying degrees of realistic environments    </div>
+    <div class="university-info" id="Statistical_Analysis_1">
+	  <h2> Research Objective:</h2>
+     <h3>In this study, the primary goal was to investigate the perception of realism in Unreal Engine 5.2. The researchers aimed to understand how sound affects the perception of realism and enjoyment in these environments. The focus was on exploring the subjective nature of realism and identifying the factors influencing participants' levels of immersion and enjoyment.</h3>
+       <h2>Methodology and Creation of Environments:</h2>
+	   <h3>Unreal Engine was used to create three distinct environments - a forest, desert, and volcano with their landscapes being created by using the Gaea software. These environments were meticulously designed to achieve varying degrees of realism, and their features, such as landscapes, textures, and vegetation, were created using a varying combination of techniques such as: procedural content generation (PCG), procedural foliage volume (PFV), an the aforementioned Gaea. And while the sound quality remains consistent across all three levels, a specific aspect of realism is compromised. This occurs due to a reduction in asset variety within the desert map and the introduction of inconsistent elements, such as monochromatic layer-blend texturing, which is employed in the least realistic map, the volcano. Furthermore, the study introduced dynamic soundscapes, which played a significant role in enhancing realism and engagement. The use of sound, including ambient audio and sound attenuation based on location and direction, was carefully incorporated into each environment. I've discussed the creation of each environment in detail, from the material pipelines to PCG, showcasing the level of intricacy in design in the full study you can download below.</h3>
+<center>
+  <table>
+    <tbody>
+      <td>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideshow4">
+
+          <!-- Full-width images with caption text -->
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Pictures/1_gaea_volcano.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="Dis/Pictures/1_gaea_desert.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="Dis/Graphs/0_gaea_maps.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+		  
+		  	  <div class="mySlides4 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Graphs/0_texture_distance_blending.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="Dis/Graphs/0_layer_blend.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="Dis/Pictures/1_real_hill.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+		  
+		  <div class="mySlides4 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Pictures/1_fake_hill.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="Dis/Pictures/1_real_desert.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="Dis/Pictures/1_fake_desert.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+            
+		   <div class="mySlides4 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Pictures/1_real_lake.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="Dis/Pictures/1_fake_lake.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+		  
+		      <div class="mySlides4 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="Dis/Pictures/1_real_forest.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+            
+		   <div class="mySlides4 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Pictures/1_fake_forest.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides4 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="Dis/Pictures/1_Volcano.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide4(1)"></span>
+          <span class="dot" onclick="currentSlide4(2)"></span>
+          <span class="dot" onclick="currentSlide4(3)"></span>
+		  <span class="dot" onclick="currentSlide4(4)"></span>
+          <span class="dot" onclick="currentSlide4(5)"></span>
+          <span class="dot" onclick="currentSlide4(6)"></span>
+		  <span class="dot" onclick="currentSlide4(7)"></span>
+          <span class="dot" onclick="currentSlide4(8)"></span>
+          <span class="dot" onclick="currentSlide4(9)"></span>
+		  <span class="dot" onclick="currentSlide4(10)"></span>
+          <span class="dot" onclick="currentSlide4(11)"></span>
+          <span class="dot" onclick="currentSlide4(12)"></span>
+		  <span class="dot" onclick="currentSlide4(13)"></span>
+          <span class="dot" onclick="currentSlide4(14)"></span>
+          
+        </div>
+      </td>
+    </tbody>
+  </table>
+
+  <script>
+    var slideIndex4 = 1;
+
+    showSlides4(slideIndex4);
+
+    function plusSlides4(n) {
+      showSlides4(slideIndex4 += n);
+    }
+
+    function currentSlide4(n) {
+      showSlides4(slideIndex4 = n);
+    }
+
+    function showSlides4(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides4");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex4 = 1 }
+      if (n < 1) { slideIndex4 = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex4 - 1].style.display = "block";
+      dots[slideIndex4 - 1].className += " active";
+    }
+  </script>
+</center>
+    <h2>Key Findings: </h2>
+	<h3>The study revealed several notable findings. First, it showed that participants perceived the most familiar environment as the most realistic, emphasizing the subjective nature of realism. It was found that sound had a positive impact on realism, especially in environments that were perceived as less realistic. However, the relationship between realism and enjoyment was not straightforward, as realism alone did not guarantee enjoyment. Participants demonstrated a strong preference for variety in the environment, emphasizing that diverse features in visual, auditory, and even unrealistic physics components contributed significantly to their engagement and enjoyment.</h3>
+
+<center>
+  <table>
+    <tbody>
+      <td>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideshow6">
+
+          <!-- Full-width images with caption text -->
+          <div class="mySlides6 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Stat/2_realism.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides6 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+           <img src="Dis/Stat/2_sound_enjoyment.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides6 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+           <img src="Dis/Stat/2_sound_realism.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+
+		<div class="mySlides6 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/Stat/F_24.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides6 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+           <img src="Dis/Stat/F_25.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides6 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="Dis/Stat/2_Figure_Exp.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides6(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides6(1)">&#10095;</a>
+		  
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide6(1)"></span>
+          <span class="dot" onclick="currentSlide6(2)"></span>
+          <span class="dot" onclick="currentSlide6(3)"></span>
+		  <span class="dot" onclick="currentSlide6(4)"></span>
+          <span class="dot" onclick="currentSlide6(5)"></span>
+          <span class="dot" onclick="currentSlide6(6)"></span>
+        </div>
+      </td>
+    </tbody>
+  </table>
+
+  <script>
+    var slideIndex6 = 1;
+
+    showSlides6(slideIndex6);
+
+    function plusSlides6(n) {
+      showSlides6(slideIndex6 += n);
+    }
+
+    function currentSlide6(n) {
+      showSlides6(slideIndex6 = n);
+    }
+
+    function showSlides6(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides6");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex6 = 1 }
+      if (n < 1) { slideIndex6 = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex6 - 1].style.display = "block";
+      dots[slideIndex6 - 1].className += " active";
+    }
+  </script>
+</center>
+
+  
+ <h2>Conclusion:</h2>
+	 <h3>The findings underscore that to create enjoyable gaming experiences, a multifaceted approach is necessary. Realism, while important, is not a standalone determinant of enjoyment. Rather, the introduction of variety across visual, auditory, and even non-realistic physics components proves to be a key factor in engaging players and heightening their overall experience. By embracing these insights, developers can better harness the power of realism and sound to craft immersive virtual worlds that captivate and delight gamers.This is particularly relevant in today's gaming industry, where many companies chase hyper-realism. However, as supported by prior research, the relentless pursuit of ultra-realism may not always be beneficial and can even detract from the gaming experience. Instead, this study emphasizes the importance of balance, variety, and a holistic approach to create virtual worlds that resonate with players.</h3>
+   
+    
+    </div>
+	  <div class="university-toggle" id="LoL">
+      The questionable sufficiency of the League of Legends tutorial and the difference between strategies based on rank
+    </div>
+    <div class="university-info" id="Statistical_Analysis_2">
+	
+	<h2><b>Announcement:</b></h2>
+	
+	<h3>Five months after the commencement of our study, Riot has unveiled an update focused on delivering improved assistance to new players. Darcy Ludington, Riot's technical product lead, stressed, "I played against bots for my first 17 levels and thought I was good to go," and added, "Our data demonstrates that no matter how many co-op vs. AI games a new player engaged in before entering a PvP queue, these games did not significantly enhance the new player's prospects of winning." This represents a noteworthy advancement in supporting newcomers in an innovative manner, while also validating the legitimacy of our study.</h3>
+	<h3><a href="https://www.leagueoflegends.com/en-us/news/dev/dev-leveling-up-bots/">Visit Riots article</a><h3>
+	
+	 <h2>Research Goals and Objectives:</h2>
+	 <h3>In this research paper, the central objective was to assess the effectiveness of the League of Legends (LoL) tutorial for new players and delve into possible improvements for the initial player experience. The overarching aim was to evaluate the impact of the game's introductory tutorial on new players and to investigate how supplementary information and guidance could enhance their comprehension and enjoyment of the game. Furthermore, the study sought to explore variations in player strategies according to their rank, offering insights into potential enhancements for a more enjoyable experience for newcomers.</h3>
+	 
+	 <h2>Methodology and Data Collection:</h2>
+	 <h3>The research approach encompassed a multifaceted investigation involving Telemetry Analysis, UX User Studies, and Survey on Enjoyability and Game Retention.</h3>
+     <h3><i>• Telemetry Analysis:</i>This phase encompassed comprehensive data collection, involving over 500 hours of League of Legends (LoL) gameplay sourced from the LoL API. This extensive dataset enabled the analysis of crucial gameplay statistics across various player ranks. The primary objective was to identify the in-game actions that had a substantial impact on a team's likelihood of winning and to gain insights into how perceived imbalances among players of the same rank affected gameplay dynamics.</h3>
+     <h3><i>• UX User Studies:</i>The studies employed A/B testing to assess the impact of an extended tutorial on novice players' performance and enjoyment. The tests were conducted on two groups, one receiving additional tutorial support, while the other relied solely on the game's existing tutorial. These studies also included observations of player behavior, such as their understanding of roles, objectives, and mechanics.</h3>
+     <h3><i>• Survey on Enjoyability and Game Retention:</i>The research extended to gauging the overall enjoyability and potential game retention among new players who had played LoL for less than 10 hours. The survey was designed to evaluate the relationship between knowledge and enjoyment, shedding light on how a lack of understanding could deter players from continuing their LoL experience.</h3>
+	 <img src="Dis/1_capture.png" style="width:100%">
+	<h2>Key Findings:</h2>
+	 <h3>•The analysis unveiled that specific in-game actions, including securing the first tower, minimizing deaths, proficient warding, and proper ward placement, significantly influenced a team's likelihood of winning. Interestingly, these crucial aspects are not adequately covered in the tutorial, with the exception of towers. Even in the case of towers, the tutorial provides only a surface-level explanation without delving into meaningful depth.</h3>
+	 <h3>•A/B testing demonstrated that a brief additional tutorial, providing insights into objectives, ward placement, and roles, significantly improved novice players' understanding and performance. These players also expressed greater emotional investment and enjoyment of the game.</h3>
+	  <h3>•The survey on enjoyability and game retention highlighted a strong correlation between knowledge and enjoyment. Participants who lacked knowledge about LoL's mechanics were less likely to find the game enjoyable and indicated a decreased likelihood of continuing to play.</h3>
+	 <center>
+  <table>
+    <tbody>
+      <td>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideshow2">
+
+          <!-- Full-width images with caption text -->
+          <div class="mySlides7 fade">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <img src="Dis/3_capture.png" style="width:100%">
+            <div class="text">Inside</div>
+          </div>
+
+          <div class="mySlides7 fade">
+            <!-- <div class="numbertext">2 / 3</div> -->
+            <img src="Dis/2_capture.png" style="width:100%">
+            <div class="text">Front</div>
+          </div>
+
+          <div class="mySlides7 fade">
+            <!-- <div class="numbertext">3 / 3</div> -->
+            <img src="Dis/4_capture.png" style="width:100%">
+            <div class="text">Back</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides7(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides7(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide7(1)"></span>
+          <span class="dot" onclick="currentSlide7(2)"></span>
+          <span class="dot" onclick="currentSlide7(3)"></span>
+        </div>
+      </td>
+    </tbody>
+  </table>
+
+  <script>
+    var slideIndex7 = 1;
+
+    showSlides7(slideIndex7);
+
+    function plusSlides7(n) {
+      showSlides7(slideIndex7 += n);
+    }
+
+    function currentSlide7(n) {
+      showSlides7(slideIndex7 = n);
+    }
+
+    function showSlides7(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides7");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex7 = 1 }
+      if (n < 1) { slideIndex7 = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex7 - 1].style.display = "block";
+      dots[slideIndex7 - 1].className += " active";
+    }
+  </script>
+</center>
+
+
+	 
+	 <h2>Conclusions:</h2>
+	 <h3>the research underscores the need for a more comprehensive and informative tutorial in LoL to enhance the new player experience and reduce toxicity. Additionally, the study emphasizes the importance of teamwork skills over individual abilities in the game. Future work may involve developing improved tutorial systems and personalized guidance to provide new players with a better understanding of their roles, item building, and game mechanics.</h3>
+	 
+	 
+	 
+	 
+ 
+   
+    
+    </div>
+	 </div>
+	
+
+   </div>
+  
+  <!-- Third Meta University Dropdown -->
+  <div class="university-toggle" id="button3">
+    Old Projects
+  </div>
+
+  <div class="university-info" id="button3-info">
+    <div class="content" >
+  <p>I ignited my game-making passion during High School while studying multimedia and design. Exploring 3D modeling, albeit with lower complexity than video games, was my initial step. Focused on architecture and object creation in SketchUp, these projects served as the spark that fueled my creative fervor. Feel free to explore some of these early endeavors here.</p>
+  <!-- You can add your project links or images here -->
+</div>
+    <!-- University 1 -->
+    <div class="university-toggle" id="button3_1">
+      Room Conversion
+    </div>
+    <div class="university-info" id="button3-info1">
+      <h2>Room conversion</h2>
+	  <div class="content" >
+      <p>I undertook a straightforward project where I transformed my room into a 3D replica using SketchUp. I meticulously recreated the room's proportions, ensuring an accurate representation in the virtual space.</p>
+      <p>View Project</p>
+    </div>
+	</div>
+    <!-- University 2 -->
+    <div class="university-toggle" id="button3_2">
+      Villa
+    </div>
+    <div class="university-info" id="button3-info2">
+      <h2>Villa complex</h2>
+	  <div class="content" >
+      <p>As part of a group project, each member was tasked with constructing a section of a larger complex. In this collaborative endeavor, my allocated responsibility was to design and create a specific portion of a building. My assigned area comprised half of the building, which I meticulously brought to life using SketchUp. This collective effort aimed to culminate in a comprehensive and intricate architectural composition.</p>
+      <p>View Project</p>
+	  </div>
+    </div>
+	
+  <div class="university-toggle" id="button3_3">
+   House
+    </div>
+    <div class="university-info" id="button3-info3">
+      <h2>House</h2>
+	  <div class="content" >
+      <p>Undertaking a project on my own, I set out to create a modern house in a dry climate backdrop. I highlighted the arid surroundings through a unique roof design and other architectural choices. While working with an existing floorplan, I added my personal flair, striking a balance between functionality and visual appeal. The result was a distinctive take on a modern home, shaped by both the environment and my creative vision.</p>
+      <p>View Project</p>
+	  </div>
+    </div>
+ 
+  <div class="university-toggle" id="button3_4">
+   Guitar
+    </div>
+    <div class="university-info" id="button3-info4">
+      <h2>Guitar</h2>
+	  <div class="content" >
+      <p>During that phase of architectural assignments, I carved out time for a personal project and crafted a guitar. It was a creative divergence from my routine, allowing me to delve into a different form of artistry while still juggling my architectural tasks.</p>
+      <img src="Guitar_front.jpg" alt="Image of Guitar">
+	 
+	  </div>
+    </div>
+  </div>
+  
+
+  <!-- Your dropdown toggle scripts -->
+  <script>
+    function toggleDropdown(dropdownId) {
+      var dropdown = document.getElementById(dropdownId);
+      dropdown.classList.toggle("active");
+    }
+
+    document.getElementById("meta-university-toggle").addEventListener("click", function() {
+      toggleDropdown("meta-university-info");
+    });
+
+    document.getElementById("university-toggle1").addEventListener("click", function() {
+      toggleDropdown("university-info1");
+    });
+
+    document.getElementById("university-toggle2").addEventListener("click", function() {
+      toggleDropdown("university-info2");
+    });
+
+    document.getElementById("button2").addEventListener("click", function() {
+      toggleDropdown("button2-info");
+    });
+
+    document.getElementById("button2_1").addEventListener("click", function() {
+      toggleDropdown("button2-info1");
+    });
+	
+	document.getElementById("salt").addEventListener("click", function() {
+      toggleDropdown("In-Engine_1");
+    });
+
+    document.getElementById("button2_2").addEventListener("click", function() {
+      toggleDropdown("button2-info2");
+    });
+	
+	document.getElementById("Martin").addEventListener("click", function() {
+      toggleDropdown("Modelin_and_Texturing_1");
+    });
+	
+	 
+	
+	document.getElementById("Gas").addEventListener("click", function() {
+      toggleDropdown("Modelin_and_Texturing_2");
+    });
+	
+	document.getElementById("Human").addEventListener("click", function() {
+      toggleDropdown("Modelin_and_Texturing_3");
+    });
+	
+	 document.getElementById("2button2_2").addEventListener("click", function() {
+      toggleDropdown("2button2-info2");
+    });
+	
+	document.getElementById("Disertation").addEventListener("click", function() {
+      toggleDropdown("Statistical_Analysis_1");
+    });
+	
+	 
+	
+	document.getElementById("LoL").addEventListener("click", function() {
+      toggleDropdown("Statistical_Analysis_2");
+    });
+	
+	 document.getElementById("button3").addEventListener("click", function() {
+      toggleDropdown("button3-info");
+    });
+	document.getElementById("button3").addEventListener("click", function() {
+      toggleDropdown("content");
+    });
+
+    document.getElementById("button3_1").addEventListener("click", function() {
+      toggleDropdown("button3-info1");
+    });
+
+    document.getElementById("button3_2").addEventListener("click", function() {
+      toggleDropdown("button3-info2");
+    });
+	
+	document.getElementById("button3_3").addEventListener("click", function() {
+      toggleDropdown("button3-info3");
+    });
+	
+	document.getElementById("button3_4").addEventListener("click", function() {
+      toggleDropdown("button3-info4");
+    });
+  </script>
+</div>
+</div>
+<div class="section-5 box" >
+<center><p class="p2">&copy;by Jk_design<p>
+</div>
+   
+   </body>
+   
+</html>
