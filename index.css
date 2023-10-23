@@ -176,7 +176,7 @@ a:hover {
 	                         }
 	.section-9 {
   height: 65%;
-  background-image: url(Sofia.PNG);
+background-image: url('https://github.com/JKDelta/JK_Port/raw/main/Sofia.png');
   background-attachment: fixed;
   background-size: cover; /* Use "cover" to ensure the image covers the container */
    background-position: center -500;
