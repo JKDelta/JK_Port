@@ -7,34 +7,30 @@
 			 
         }
 
+  .fixed-nav-bar {
+            position: fixed;
+            top: -100;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+            background-color: black;
+            overflow: hidden;
+            background-size: 100% 100%;
+        }
 
-         	.fixed-nav-bar {
-			  position: fixed;
-			  top: 0;
-			  left: 0;
-			  z-index: 9999;
-			  width: 100%;
-			  
-			  background-color: black;
-			
-			  overflow: hidden;
-			   background-size: 100% 100%;
-            }
+        .fixed-nav-bar a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 25px 12px;
+            text-decoration: none;
+            font-size: 20px;
+        }
 
-            .fixed-nav-bar a {
-             float: left;
-             display: block;
-             color: white;
-             padding: 25px 12px;
-             text-decoration: none;
-             font-size: 20px;
-             }
-
-             .fixed-nav-bar a:hover {
-             
-             color: #d48f83;
-             }
-
+        .fixed-nav-bar a:hover {
+            color: #d48f83;
+        }
+		
              .main {
              padding: 16px;
              margin-top: 30px;
@@ -42,15 +38,11 @@
              }
 			 
 
-.sction-2 img {
-  width: 30px;
-  height: 30px;
-  display: block;
-  margin: 0 auto; /* Center the images horizontally */
-}
-.sction-1 img {
- width: 30px;
-  height: 30px;
+.sction-1 img,
+.sction-2 img,
+.sction-3 img {
+  width: 5vh;
+  height: 5vh;
   display: block;
   margin: 0 auto; /* Center the images horizontally */
 }
@@ -181,6 +173,17 @@ a:hover {
 		                     color: white;
 		                     font-family: sans-serif;
 	                         }
+	.section-9 {
+  height: 65%;
+  background-image: url(Sofia.JPG);
+  background-attachment: fixed;
+  background-size: cover; /* Use "cover" to ensure the image covers the container */
+   background-position: center -500;
+}
+
+    .scroll-down {
+      background-position: center -100%; /* Move the image up (negative percentage) */
+    }
 							 
 	                         .section-1{
                               height: 35%;
@@ -207,14 +210,10 @@ a:hover {
 							 
 		                     background-image: linear-gradient(	#66003f, #520ee5, #200d88);
 	                         }	  
-					.section-5{
-								 background-image: linear-gradient(#2e007c, #090643, #030303);
-								  align: center;
-								  position: flex;
-			                      left: 0;
-								   bottom: 0;
-								   
-	                         }
+					.section-5 {
+  background-image: linear-gradient(#2e007c, #090643, #030303);
+  position: relative; /* Use "relative" positioning */
+}
   
 						   .section-6 {
   background-image: linear-gradient(#030303, #2e007c);
@@ -250,6 +249,8 @@ a:hover {
 													  text-align: center;
 													   top:50%;
 													   }
+													   
+									
                                                            
 														        a:link {
                                                                 color: pink;
